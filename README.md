@@ -78,3 +78,11 @@ PATH=${JAVA_HOME}/bin:${PATH}
 cf target
 cf push
 ```
+
+## DB
+```
+cf marketplace
+cf create-service cleardb spark spring-db
+cf services
+cf bind-service spring-music spring-db
+```
