@@ -5,16 +5,6 @@ https://network.pivotal.io/products/elastic-runtime/
 ## ローカライズしたい場合は
  cf config --locale ja-JP
 ```
-## Org/Spade/Roleについて
-https://waveland.education.pivotal.io/pcf-operator-course/pas-admin-tasks/1iMkty1POQzet6zK9VG2kqDslu3klynA-tezBz8_WaCo.html
-- Orgの配下にSpace
-- BillingはOrgに紐付く
-- UserとQuotaも同様
-- UserはOrg/Spaceいずれにも紐付くが、ユーザー管理はOrgレベル
-
-## PWS
-- ORGを作る
-- Spaceを作る
 
 ## Login & setup
 ログイン
@@ -62,7 +52,7 @@ cf apps
 cf routes
 cf events pal-tracker
 ```
-PWSに戻ってSpaceの状態を確認する
+
 ## スケーリング
 ```
 cf app pal-tracker
