@@ -31,7 +31,7 @@ cf target -s prod
 ```
 - PWSに戻って作成したSpaceを確認
 
-## Pal-Tracker
+# Pal-Tracker
 https://s3.amazonaws.com/pal-operator-jars/releases/pal-tracker.jar
 ```
 cf push pal-tracker -p pal-tracker.jar --random-route
@@ -53,7 +53,7 @@ cf routes
 cf events pal-tracker
 ```
 
-## スケーリング
+# スケーリング
 ```
 cf app pal-tracker
 cf scale pal-tracker -m 512M -f
@@ -64,7 +64,7 @@ cf scale pal-tracker -i 2
 cf delete pal-tracker
 ```
 
-## Spring Music
+# Spring Music
 https://github.com/cloudfoundry-samples/spring-music
 ```bash
 ## cloing the repo
@@ -79,7 +79,7 @@ cf target
 cf push
 ```
 
-## DB
+# DB
 ```
 cf marketplace
 cf create-service cleardb spark spring-db
