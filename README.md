@@ -60,7 +60,6 @@ cf scale pal-tracker -m 512M -f
 ## -- Fail --
 cf scale pal-tracker -m 768M -f
 cf scale pal-tracker -i 2
-cf scale pal-tracker -m 800M -f
 ## アプリを削除
 cf delete pal-tracker
 ```
