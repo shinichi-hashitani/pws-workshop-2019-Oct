@@ -70,6 +70,9 @@ https://github.com/cloudfoundry-samples/spring-music
 ## cloing the repo
 git clone https://github.com/cloudfoundry-samples/spring-music.git
 cd spring-music
+## Switching JDK to 8
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+PATH=${JAVA_HOME}/bin:${PATH}
 ## build
 ./gradlew clean assemble
 cf target
