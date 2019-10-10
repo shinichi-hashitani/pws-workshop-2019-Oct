@@ -20,7 +20,7 @@ cf orgs
 CF Space
 ```
 cf spaces
-cf delete-space test
+cf delete-space development
 cf create-space dev
 cf create-space prod
 cf target
